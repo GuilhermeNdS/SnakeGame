@@ -168,7 +168,7 @@ const gameOver = () => {
 
     menu.style.display = "flex"
     finalScore.innerText = score.innerText
-    canvas.style.filter = "blur(6px)"
+    canvas.style.filter = "blur(12px)"
 }
 
 const gameLoop = () => {
